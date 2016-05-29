@@ -14,5 +14,5 @@ do
 
     rm -rf ./dist
     pyinstaller umatracker-mac.spec
-    mv "${entry}/dist/*.app" "${output_loc}"
+    mv "${entry}/dist"/*.app "${output_loc}"
 done
