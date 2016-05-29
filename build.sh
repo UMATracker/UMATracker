@@ -2,7 +2,7 @@ current_dir=$(pwd)
 
 for entry in "${current_dir}"/*/
 do
-    cd entry
+    cd ${entry}
 
     n=0
     until [ $n -ge 5 ]
