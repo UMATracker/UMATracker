@@ -3,7 +3,7 @@ $current_dir=$PSScriptRoot;
 
 for ( $i = 0; $i -lt 5; $i++ )
 {
-    if((git pull -f) -and (git submodule update --init --recursive))
+    if(-not((git pull -f) -or (git submodule update --init --recursive)))
     {
         break;
     }
