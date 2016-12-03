@@ -2,6 +2,20 @@
 
 ## Change Log
 
+### 2016/12/03
+
+#### Tracker
+
+#### TrackingCorrector
+
+#### Area51
+
+* FrameDeltaを指定して得られたデータの扱うときに正しく動作しない問題を修正．
+
+#### Area51
+
+* ROI DiagramにAxis Labelを表示するようにした．
+
 ### 2016/11/16
 
 #### Tracker
