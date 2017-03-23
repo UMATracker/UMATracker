@@ -2,6 +2,13 @@
 
 ## Change Log
 
+### 2017/03/23
+
+#### FilterGenerator
+
+* PolySelectorブロックにおいて任意の多角形をサポート．
+* Binalizeせずフィルタをセーブしようとすると警告が出るようになった．
+
 ### 2017/03/14
 
 #### Area51
