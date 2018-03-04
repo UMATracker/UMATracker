@@ -1,10 +1,24 @@
-# UMATracker
+# UMATracking
 
 ## Change Log
 
+### 2018/03/04
+
+#### Tracking
+
+* 手動トラッキング機能（Pochi-Pochi Tracking）追加
+
+#### Area51
+
+* Objectのセーブ・ロード機能を追加
+
+#### Area51/TrackingCorrector
+
+* フレーム番号が0から始まらないデータの読み込みに失敗するバグを修正
+
 ### 2017/08/09
 
-#### Tracker
+#### Tracking
 
 * 現在のスライダーバーの位置までしか正しくセーブされないバグを修正
 
@@ -33,7 +47,7 @@
 
 ### 2016/12/03
 
-#### Tracker
+#### Tracking
 
 #### TrackingCorrector
 
@@ -47,7 +61,7 @@
 
 ### 2016/11/16
 
-#### Tracker
+#### Tracking
 
 #### TrackingCorrector
 
@@ -77,7 +91,7 @@
 #### FilterGenerator
 * ビデオ出力機能のバグ修正（Windows版）．
 
-#### Tracker
+#### Tracking
 * SkeletonEstimatorの精度向上（Windows 64bit版）．
 
 #### Area51
