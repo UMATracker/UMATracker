@@ -1,4 +1,4 @@
-# UMATracking
+# UMATracker
 
 ## Change Log
 
