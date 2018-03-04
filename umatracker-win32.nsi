@@ -77,12 +77,12 @@ section "install"
 
     # ADD_LINE
     File /r "UMATracker-FilterGenerator"
-    File /r "UMATracker-Tracker"
+    File /r "UMATracker-Tracking"
     File /r "UMATracker-TrackingCorrector"
     File /r "UMATracker-Area51"
 
     AccessControl::GrantOnFile \
-        "$INSTDIR\UMATracker-Tracker\lib" "(BU)" "GenericRead + GenericWrite"
+        "$INSTDIR\UMATracker-Tracking\lib" "(BU)" "GenericRead + GenericWrite"
     Pop $0
 	# Add any other files for the install directory (license files, app data, etc) here
 
@@ -92,7 +92,7 @@ section "install"
 	# Start Menu
 	createDirectory "$SMPROGRAMS\${COMPANYNAME}"
     createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-FilterGenerator.lnk" "$INSTDIR\UMATracker-FilterGenerator\UMATracker-FilterGenerator.exe"
-	createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Tracker.lnk" "$INSTDIR\UMATracker-Tracker\UMATracker-Tracker.exe"
+	createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Tracking.lnk" "$INSTDIR\UMATracker-Tracking\UMATracker-Tracking.exe"
     createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-TrackingCorrector.lnk" "$INSTDIR\UMATracker-TrackingCorrector\UMATracker-TrackingCorrector.exe"
     createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Area51.lnk" "$INSTDIR\UMATracker-Area51\UMATracker-Area51.exe"
 
@@ -132,7 +132,7 @@ section "uninstall"
     # ADD_LINE
 	# Remove Start Menu launcher
     delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-FilterGenerator.lnk"
-	delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Tracker.lnk"
+	delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Tracking.lnk"
     delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-TrackingCorrector.lnk"
     delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Area51.lnk"
 	# Try to remove the Start Menu folder - this will only happen if it is empty
@@ -140,7 +140,7 @@ section "uninstall"
 
     # ADD_LINE
     rmDir /r "$INSTDIR\UMATracker-FilterGenerator"
-    rmDir /r "$INSTDIR\UMATracker-Tracker"
+    rmDir /r "$INSTDIR\UMATracker-Tracking"
     rmDir /r "$INSTDIR\UMATracker-TrackingCorrector"
     rmDir /r "$INSTDIR\UMATracker-Area51"
 
