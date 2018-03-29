@@ -3,6 +3,9 @@
 ## Detail
 See [Top Page](http://ymnk13.github.io/UMATracker/).
 
+## Donwload
+See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
+
 ## Change Log
 
 ### 2018/03/18
