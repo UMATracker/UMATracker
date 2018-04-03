@@ -9,6 +9,17 @@ See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
 
 ## Change Log
 
+### 2018/04/04
+
+#### Tracking
+
+* 以下のショートカットが追加された．
+    
+    * "Ctrl-S" (Windows), "Command+S" (macOS)：Save Data.
+    * "Ctrl-R" (Windows), "Command+R" (macOS)：Restart from This Frame.
+    * "W" or "P" Key：Go to previous frame.
+    * "Q" or "O" Key：Go to next frame.
+
 ### 2018/03/18
 
 #### Tracking
