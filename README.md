@@ -9,6 +9,12 @@ See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
 
 ## Change Log
 
+### 2018/04/24
+
+#### Tracking
+
+* Sketeton Estimatorでmis-detectionを無視できるようにした．
+
 ### 2018/04/04
 
 #### Tracking
