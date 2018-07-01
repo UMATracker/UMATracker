@@ -105,6 +105,7 @@ section "install"
     File /r "UMATracker-Tracking"
     File /r "UMATracker-TrackingCorrector"
     File /r "UMATracker-Area51"
+    File "LICENSE.txt"
 
     AccessControl::GrantOnFile \
         "$INSTDIR\UMATracker-Tracking\lib" "(BU)" "GenericRead + GenericWrite"
@@ -120,6 +121,7 @@ section "install"
 	createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Tracking.lnk" "$INSTDIR\UMATracker-Tracking\UMATracker-Tracking.exe"
     createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-TrackingCorrector.lnk" "$INSTDIR\UMATracker-TrackingCorrector\UMATracker-TrackingCorrector.exe"
     createShortCut "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Area51.lnk" "$INSTDIR\UMATracker-Area51\UMATracker-Area51.exe"
+    createShortCut "$SMPROGRAMS\${COMPANYNAME}\LICENSE.lnk" "$INSTDIR\LICENSE.txt"
 
 	# Registry information for add/remove programs
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "DisplayName" "${COMPANYNAME} - ${APPNAME} - ${DESCRIPTION}"
@@ -160,6 +162,7 @@ section "uninstall"
 	delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Tracking.lnk"
     delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-TrackingCorrector.lnk"
     delete "$SMPROGRAMS\${COMPANYNAME}\UMATracker-Area51.lnk"
+    delete "$SMPROGRAMS\${COMPANYNAME}\LICENSE.lnk"
 	# Try to remove the Start Menu folder - this will only happen if it is empty
 	rmDir "$SMPROGRAMS\${COMPANYNAME}"
 
@@ -168,6 +171,7 @@ section "uninstall"
     rmDir /r "$INSTDIR\UMATracker-Tracking"
     rmDir /r "$INSTDIR\UMATracker-TrackingCorrector"
     rmDir /r "$INSTDIR\UMATracker-Area51"
+    delete "$INSTDIR\LICENSE.txt"
 
 	# Always delete uninstaller as the last action
 	delete $INSTDIR\uninstall.exe

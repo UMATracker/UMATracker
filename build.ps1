@@ -15,6 +15,8 @@ do {
     }
 } while (!$success);
 
+cp .\LICENSE.txt "${uma_output_dir}";
+
 $list=Get-ChildItem -Path "${current_dir}" -Directory;
 foreach($dir in $list)
 {

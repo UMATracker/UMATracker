@@ -8,6 +8,8 @@ do
     sleep 60
 done
 
+cp ./LICENSE.txt "${UMA_OUTPUT_PATH}"
+
 for entry in "${current_dir}"/*/
 do
     cd ${entry}
@@ -19,3 +21,4 @@ do
         mv "${entry}/dist"/*.app "${UMA_OUTPUT_PATH}"
     fi
 done
+
