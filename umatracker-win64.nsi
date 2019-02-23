@@ -1,11 +1,3 @@
-# conda execute
-# env:
-#  - nsis 3.*
-#  - AccessControl
-# channels:
-#  - nsis
-# run_with: makensis
-
 !define APPNAME "UMATracker"
 !define COMPANYNAME "UMA"
 !define DESCRIPTION "Useful Multiple Animal Tracker"

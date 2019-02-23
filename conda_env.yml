@@ -1,8 +1,7 @@
-name: uma-dev
+name: uma-release
 channels:
-  - conda-forge
-  - defaults
+  - nsis
 dependencies:
-  - conda-execute
-  - conda<=4.5.12
-prefix: /Users/rito/miniconda3/envs/uma-dev
+  - nsis 3.*
+  - AccessControl
+prefix: /Users/rito/miniconda3/envs/uma-release
