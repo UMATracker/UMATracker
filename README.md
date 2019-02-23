@@ -1,5 +1,7 @@
 # UMATracker
 
+[![Build status](https://umatracker.vsrm.visualstudio.com/_apis/public/Release/badge/0f98e98a-73c9-4ba5-95b3-5f673ab00e9f/1/1)](https://umatracker.visualstudio.com/UMATracker-CI/_release?definitionId=1)
+
 ## Detail
 See [Top Page](http://ymnk13.github.io/UMATracker/).
 
