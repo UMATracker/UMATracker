@@ -1,0 +1,7 @@
+name: uma-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-execute
+prefix: /Users/rito/miniconda3/envs/uma-dev
