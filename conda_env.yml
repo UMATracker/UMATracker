@@ -4,4 +4,5 @@ channels:
   - defaults
 dependencies:
   - conda-execute
+  - conda<=4.5.12
 prefix: /Users/rito/miniconda3/envs/uma-dev
