@@ -1,0 +1,7 @@
+name: uma-release
+channels:
+  - nsis
+dependencies:
+  - nsis 3.*
+  - AccessControl
+prefix: /Users/rito/miniconda3/envs/uma-release
