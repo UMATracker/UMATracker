@@ -11,6 +11,9 @@ See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
 
 ## Change Log
 
+### 2019/02/25
+* Azure DevOpsでビルドするようになった．
+
 ### 2018/04/24
 
 #### Tracking
