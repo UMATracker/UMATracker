@@ -11,6 +11,9 @@ See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
 
 ## Change Log
 
+### 2019/03/05
+* macOS版の起動時間・バイナリサイズ削減．
+
 ### 2019/02/25
 * Azure DevOpsでビルドするようになった．
 
