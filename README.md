@@ -8,6 +8,30 @@ See [Top Page](http://ymnk13.github.io/UMATracker/).
 ## Donwload
 See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
 
+## References:
+If you use UMATracker please cite Yamanaka and Takeuchi 2018 and if you use GroupTracker algorithm please also cite Fukunaga et al, 2015
+
+     @article{yamanaka2018umatracker,
+      title={UMATracker: an intuitive image-based tracking platform},
+      author={Yamanaka, Osamu and Takeuchi, Rito},
+      journal={Journal of Experimental Biology},
+      volume={221},
+      number={16},
+      pages={jeb182469},
+      year={2018},
+      publisher={The Company of Biologists Ltd}
+     }
+
+     @article{fukunaga2015grouptracker,
+       title={GroupTracker: video tracking system for multiple animals under severe occlusion},
+       author={Fukunaga, Tsukasa and Kubota, Shoko and Oda, Shoji and Iwasaki, Wataru},
+       journal={Computational biology and chemistry},
+       volume={57},
+       pages={39--45},
+       year={2015},
+       publisher={Elsevier}
+      }
+
 
 ## Change Log
 
