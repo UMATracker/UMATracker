@@ -8,6 +8,8 @@ See [Top Page](http://ymnk13.github.io/UMATracker/).
 ## Donwload
 See [GitHub Releases Page](https://github.com/UMATracker/UMATracker/releases).
 
+## Terms of Use
+Please cite ["Yamanaka and Takeuchi, 2018"](https://doi.org/10.1242/jeb.182469) in your article. We recommend you to refer to the object tracking algorithm. For instance, you will make reference to ["Fukunaga et al., 2015"](https://doi.org/10.1016/j.compbiolchem.2015.02.006) when you collect data by "GroupTracker".
 
 ## Change Log
 
