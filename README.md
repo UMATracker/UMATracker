@@ -13,6 +13,11 @@ Please cite ["Yamanaka and Takeuchi, 2018"](https://doi.org/10.1242/jeb.182469) 
 
 ## Change Log
 
+### 2019/07/06
+* Release-13に不具合があったので、ロールバック．
+* Pythonを3.7にバージョンアップ．
+* VapoursynthをR46にバージョンアップ．
+
 ### 2019/03/05
 * macOS版の起動時間・バイナリサイズ削減．
 
