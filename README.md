@@ -13,6 +13,11 @@ Please cite ["Yamanaka and Takeuchi, 2018"](https://doi.org/10.1242/jeb.182469) 
 
 ## Change Log
 
+### 2021/09/16
+* リビルドしてライブラリをなるべく最新のものにした．
+* macOS: Big Surでビルドするようにした．
+* macOS: VapoursynthをR51にバージョンアップ．
+
 ### 2019/07/06
 * Release-13に不具合があったので、ロールバック．
 * Pythonを3.7にバージョンアップ．
